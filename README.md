@@ -1,4 +1,8 @@
 # Forecast wine quality
+[![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![Scikit-learn](https://img.shields.io/badge/Scikit--learn-Machine%20Learning-orange?logo=scikitlearn&logoColor=white)](https://scikit-learn.org/)
+[![Flask](https://img.shields.io/badge/Flask-REST%20API-black?logo=flask)](https://flask.palletsprojects.com/)
+[![Docker](https://img.shields.io/badge/Docker-Containerized-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
 
 This project predicts red wine quality based on its physicochemical properties using a Random Forest Regressor, served through a Flask REST API and containerized with Docker.
 
@@ -40,18 +44,18 @@ The model development process includes:
    - Ridge Regression
    - Lasso Regression
    - Random Forest Regression
-4. Hyperparameter optimization for Ridge, Lasso and Random Forest models
+4. Hyperparameter optimization for Ridge, Lasso, and Random Forest models
 5. Final Random Forest model training using the selected hyperparameters.
 
-### Hyperparameter Optimization
+The optimization objective was minimizing:
 
-The optimization objective was minimizing Mean Squared Error (MSE).
+- **Mean Squared Error (MSE)**
 
 The following evaluation metrics were considered:
 
-- **MSE (Mean Squared Error):**
-- **MAE (Mean Absolute Error):**
-- **R² (Coefficient of Determination):**
+- **MSE (Mean Squared Error)**
+- **MAE (Mean Absolute Error)**
+- **R² (Coefficient of Determination)**
 
 ## 3. Model Performance
 
