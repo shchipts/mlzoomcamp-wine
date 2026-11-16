@@ -35,7 +35,7 @@ This project predicts red wine quality based on its physicochemical properties u
 
 The project uses a Random Forest Regression model to predict red wine quality.
 
-The model development process includes:
+The model development process in `notebook.ipynb` includes:
 
 1. Exploratory Data Analysis (EDA).
 2. Feature standardization.
